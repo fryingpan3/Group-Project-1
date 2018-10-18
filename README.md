@@ -1,3 +1,5 @@
+**MAKE SURE YOU'RE USING PYTHON 3 OR HIGHER**  
+  
 # Group-Project-1
 This project will require all six of you to work together and set some ground rules as you will each build part of it.
 Your mission is to create a program that implements a number of ciphers.  The user can select which cypher to use.  They then type their message and press enter to confirm.  The program will then display the encrypted message.
