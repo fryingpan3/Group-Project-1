@@ -11,7 +11,7 @@ def Affine_En(String):
     planetext = String
     numtext = []
     newnum = []
-    alph = ["a","b","c","d","e","f","g","h","i","j","k","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    alph = ["A","B","C","D","E","F","G","H","I","J","K","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     # convert to num
     for i in range (0, len(planetext)-1):
         for p in range (0,25):
