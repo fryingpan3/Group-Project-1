@@ -1,7 +1,6 @@
 #decoding and encoding cypher (affine)
 def Affine_En(String):
     EnString = []
-    String = "abcd!"
     try:
         Akey = int(input())
         Bkey = int(input())
