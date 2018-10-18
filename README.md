@@ -9,11 +9,15 @@
 **Mark**    - Affine Cipher  
 **Matthew** - Transposition Cipher  
 
-**variable format**  
+**Variable format**  
 - 1 word variables: *name*  
 - 2 word variables: *name_name*  
 - etc.  
   
+  
+**Function format**  
+- def function_name(string)  
+*function_name is changeable, string is not*
   
   
   
