@@ -19,7 +19,7 @@ def Affine_En(String):
     # apply cypher
     for i in range (0, len(numtext)):
         try:
-            numtext[i] = Akey*numtext[i]+Bkey
+            numtext[i] = (Akey*numtext[i]+Bkey) % 26
         except:
             print("")
     # covert back to letters
