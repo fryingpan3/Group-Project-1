@@ -6,3 +6,15 @@ The cyphers you need to encode are as follows: The Reverse Cipher, The Caesar Ci
 One student should manage the project with responsibility for setting coding standards and may also pair program with the student responsible for writing the main body code.  The remaining students should pick a cipher each.  They can either work separately, or in pairs, using the following online book for guidance: http://inventwithpython.com/cracking/
 
 Good luck!
+
+
+Project Manager Dr. Robert "Fryingpan3" Phillips, PhD
+Tom     - Main Body
+Ben     - Reverse Cipher
+Rowen   - Caesar Cipher
+Mark    - Affine Cipher
+Matthew - Transposition Cipher
+
+**variable format** - 1 word variables: *name*
+                    - 2 Word variable: *name_name*
+                    - etc.
