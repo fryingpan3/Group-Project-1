@@ -9,12 +9,12 @@ Good luck!
 
 
 **Dr. Robert "Fryingpan3" Phillips, PhD** - Project Manager  
-**Tom**     - Main Body 
-**Ben**     - Reverse Cipher
-**Rowen**   - Caesar Cipher 
-**Mark**    - Affine Cipher 
-**Matthew** - Transposition Cipher 
+**Tom**     - Main Body  
+**Ben**     - Reverse Cipher  
+**Rowen**   - Caesar Cipher  
+**Mark**    - Affine Cipher  
+**Matthew** - Transposition Cipher  
 
-**variable format** - 1 word variables: *name*
-                    - 2 Word variable: *name_name*
-                    - etc.
+**variable format** - 1 word variables: *name*  
+                    - 2 Word variable: *name_name*  
+                    - etc.  
