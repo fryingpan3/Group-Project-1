@@ -8,12 +8,12 @@ One student should manage the project with responsibility for setting coding sta
 Good luck!
 
 
-Project Manager Dr. Robert "Fryingpan3" Phillips, PhD\n
-Tom     - Main Body\n
-Ben     - Reverse Cipher\n
-Rowen   - Caesar Cipher\n
-Mark    - Affine Cipher\n
-Matthew - Transposition Cipher\n
+**Project Manager Dr. Robert "Fryingpan3" Phillips, PhD** 
+**Tom**     - Main Body 
+**Ben**
+**Rowen**   - Caesar Cipher 
+**Mark**    - Affine Cipher 
+**Matthew** - Transposition Cipher 
 
 **variable format** - 1 word variables: *name*
                     - 2 Word variable: *name_name*
