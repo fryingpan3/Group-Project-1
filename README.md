@@ -15,6 +15,7 @@ Good luck!
 **Mark**    - Affine Cipher  
 **Matthew** - Transposition Cipher  
 
-**variable format** - 1 word variables: *name*  
-                    - 2 Word variable: *name_name*  
-                    - etc.  
+**variable format**  
+- 1 word variables: *name*  
+- 2 word variables: *name_name*  
+- etc.  
