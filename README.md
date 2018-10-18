@@ -10,7 +10,7 @@ Good luck!
 
 **Dr. Robert "Fryingpan3" Phillips, PhD** - Project Manager  
 **Tom**     - Main Body 
-**Ben**
+**Ben**     - Reverse Cipher
 **Rowen**   - Caesar Cipher 
 **Mark**    - Affine Cipher 
 **Matthew** - Transposition Cipher 
