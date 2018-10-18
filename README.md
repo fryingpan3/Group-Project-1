@@ -8,7 +8,7 @@ One student should manage the project with responsibility for setting coding sta
 Good luck!
 
 
-**Project Manager Dr. Robert "Fryingpan3" Phillips, PhD** 
+**Dr. Robert "Fryingpan3" Phillips, PhD** - Project Manager  
 **Tom**     - Main Body 
 **Ben**
 **Rowen**   - Caesar Cipher 
