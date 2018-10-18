@@ -1,4 +1,4 @@
-#decoding and encoding cypher (affine)
+#encoding cypher (affine)
 def Affine_En(String):
     EnString = []
     try:
