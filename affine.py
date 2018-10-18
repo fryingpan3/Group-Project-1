@@ -1,5 +1,5 @@
 #decoding and encoding cypher (affine)
-def Affine_En():
+def Affine_En(String):
     EnString = []
     String = "abcd!"
     try:
