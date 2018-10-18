@@ -16,8 +16,8 @@
   
   
 **Function format**  
-- def function_name(string)  
-*function_name is changeable, string is not*
+- def function_name(variable_name)  
+***function_name** is your cipher, **variable_name** is the text to be decrypted/encrypted*
   
   
   
