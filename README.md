@@ -2,7 +2,7 @@
  
 
 
-**Dr. Robert "Fryingpan3" Phillips, PhD** - Project Manager  
+**Robert** - Project Manager  
 **Tom**     - Main Body  
 **Ben**     - Reverse Cipher  
 **Rowen**   - Caesar Cipher  
