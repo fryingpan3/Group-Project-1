@@ -1,31 +1,34 @@
 #decoding and encoding cypher (affine)
-def Affine(String):
-    try:
-        Akey = int(input())
-        Bkey = int(input())
-    except:
-        print("NO LETTERS!")
-        Affine()
-    planetext = String
+def Affine_En(Key1Input, Key2Input, plainText):
+    EnString = []
+    Akey = Key2Input
+    Bkey = Key1Input
+    planetext = plainText
     numtext = []
     newnum = []
-    alph = ["a","b","c","d","e","f","g","h","i","j","k","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    alph = ["a","b","c","d","e","f","g","h","i","j","k","m","n","o","p","q","r","s","t","u","v","w","x","y","z","!"]
     # convert to num
-    for i in range (0, len(planetext)-1):
+    for i in range (0, len(planetext)):
         for p in range (0,25):
             if alph[int(p)] == planetext[int(i)]:
                 numtext.append(p)
     # apply cypher
     for i in range (0, len(numtext)):
         try:
-            numtext[i] = Akey*numtext[i]+Bkey
+            numtext[i] = (Akey*numtext[i]+Bkey) % 27
+        except:
+            print("")
     # covert back to letters
     for i in range(0, len(numtext)):
-        planetext[i] = aplh[numtext[i]]
-
+        try:
+            EnString.append(alph[numtext[i]])
+        except:
+            number = numtext[i] - 26
+            EnString.append(alph[number])
     String = planetext
-    return String
-Affine()
+    "".join(EnString)
+    print(EnString)
+    return EnString
 
 
             
