@@ -14,18 +14,15 @@ def Affine_En(Key1Input, Key2Input, plainText):
             if p == 26:
                 numtext.append(planetext[int(i)])
                 print("planetext")
-                
             elif alph[int(p)] == planetext[int(i)]:
                 numtext.append(p)
                 break
-            
     print(numtext)
     # apply cypher
     for i in range (0, len(numtext)):
         try:
             numtext[i] = (Akey*numtext[i]+Bkey) % 26
         except:
-            print("except cypher")
     # covert back to letters
     for i in range(0, len(numtext)):
         try:
@@ -36,11 +33,7 @@ def Affine_En(Key1Input, Key2Input, plainText):
                 EnString.append(alph[number])
             except:
                 EnString.append(numtext[i])
-                
-    String = planetext
     "".join(EnString)
-    print(EnString)
-    return EnString
 
             
         
