@@ -17,6 +17,7 @@ def Affine_En(planetext, Akey, Bkey):
         try:
             numtext[i] = (Bkey*numtext[i]+Akey) % 26
         except:
+            print("")
     # covert back to letters
     for i in range(0, len(numtext)):
         try:
