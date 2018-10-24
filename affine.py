@@ -6,7 +6,7 @@ def Affine_En(planetext, Akey, Bkey):
     alph = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     # convert to num
     for i in range (0, len(planetext)):
-        for p in range (0,27):
+        for p in range (0,len(alph)+1):
             if p == 26:
                 numtext.append(planetext[int(i)])
             elif alph[int(p)] == planetext[int(i)]:
@@ -15,7 +15,7 @@ def Affine_En(planetext, Akey, Bkey):
     # apply cypher
     for i in range (0, len(numtext)):
         try:
-            numtext[i] = (Bkey*numtext[i]+Akey) % 26
+            numtext[i] = (Bkey*numtext[i]+Akey) % len(alph)
         except:
             print("")
     # covert back to letters
@@ -32,4 +32,12 @@ def Affine_En(planetext, Akey, Bkey):
     String = planetext
     "".join(EnString)
     print(EnString)
+plainText = "z"
+Key1Input = 5
+Key2Input = 2
 Affine_En(plainText, Key1Input, Key2Input)
+
+
+            
+        
+    
