@@ -1,27 +1,21 @@
 #decoding and encoding cypher (affine)
-def Affine_En(Key1Input, Key2Input, plainText):
+def Affine_En(planetext, Akey, Bkey):
     EnString = []
-    Akey = Key2Input
-    Bkey = Key1Input
-    planetext = plainText
     numtext = []
     newnum = []
-    alph = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    alph = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     # convert to num
     for i in range (0, len(planetext)):
         for p in range (0,27):
-            print(planetext[int(i)], p)
             if p == 26:
                 numtext.append(planetext[int(i)])
-                print("planetext")
             elif alph[int(p)] == planetext[int(i)]:
                 numtext.append(p)
                 break
-    print(numtext)
     # apply cypher
     for i in range (0, len(numtext)):
         try:
-            numtext[i] = (Akey*numtext[i]+Bkey) % 26
+            numtext[i] = (Bkey*numtext[i]+Akey) % 26
         except:
     # covert back to letters
     for i in range(0, len(numtext)):
@@ -33,8 +27,8 @@ def Affine_En(Key1Input, Key2Input, plainText):
                 EnString.append(alph[number])
             except:
                 EnString.append(numtext[i])
+                
+    String = planetext
     "".join(EnString)
-
-            
-        
-    
+    print(EnString)
+Affine_En(plainText, Key1Input, Key2Input)
