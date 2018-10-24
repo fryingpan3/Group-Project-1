@@ -1,4 +1,4 @@
-#decoding and encoding cypher (affine)
+#decoding and encoding cypher (affine) call Affine_En(plainText, Key1Input, Key2Input)
 def Affine_En(planetext, Akey, Bkey):
     EnString = []
     numtext = []
@@ -32,10 +32,7 @@ def Affine_En(planetext, Akey, Bkey):
     String = planetext
     "".join(EnString)
     print(EnString)
-plainText = "z"
-Key1Input = 5
-Key2Input = 2
-Affine_En(plainText, Key1Input, Key2Input)
+
 
 
             
