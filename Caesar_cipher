@@ -1,0 +1,25 @@
+def caesar_cypher(plaintext):
+
+          import string     #this needs to be imported to use string functions
+
+          alphabet = string.ascii_lowercase 
+
+          print("to decrypt use a negative number to encrypt use a positive number")
+
+          key = int(input("What will the key be "))
+
+          plaintext.lower()       #changes text to lowercase
+
+          shifted_alphabet = (alphabet[key:] + alphabet[:key])
+
+          table = str.maketrans(alphabet, shifted_alphabet)
+
+          cypher_text = plaintext.translate(table) # this holds the encrypted/decrypted text
+
+          print(cypher_text)
+
+
+
+
+
+caesar_cypher(plaintext)
